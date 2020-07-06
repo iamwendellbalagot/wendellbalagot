@@ -76,8 +76,9 @@ li a {
 
 .portfolio {
     position: relative;
-    top: 257px;
+    top: 210px;
     background-color: #f0f5f9;
+    padding-bottom: 50px;
 }
 
 .portfoliocontents {
@@ -109,7 +110,46 @@ li a {
     font-weight: 1000;
 }
 
+.services {
+    position: relative;
+    top: 210px;
+    background-color: #c9d6df;
+    font-family: 'Titillium Web';
+}
+
+.servicescontents {
+    background-color: #c9d6df;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0px;
+    height: 50%;
+    width: 75%;
+    padding: 25px;
+    font-family: 'Titillium Web';
+}
+
+.servtitle {
+    color: #1e2022;
+    font-size: 30px;
+    font-family: 'Titillium Web';
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.servimage {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: #52616b;
+}
+
+.servicescontents h5 {
+    font-weight: 700;
 }
 
 
 
+
+}
