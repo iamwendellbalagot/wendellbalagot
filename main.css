@@ -1,5 +1,5 @@
 
-@media(min-width:1025px) {
+@media(min-width:480px) {
 .banner {
     top: 0px;
     left: 0px;
@@ -154,6 +154,7 @@ li a {
     top: 210px;
     background-color: #f0f5f9;
     font-family: 'Titillium Web';
+    padding-bottom: 50px;
 }
 
 .aboutmecontent {
@@ -176,6 +177,71 @@ li a {
     padding-bottom: 25px;
     padding-top: 30px;
     font-weight: 700;
+}
+
+
+.contacts {
+    position: relative;
+    top: 210px;
+    background-color: #c9d6df;
+    font-family: 'Titillium Web';
+    height: 400px;
+}
+
+.contactscontent {
+    background-color: #c9d6df;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0px;
+    height: 50%;
+    width: 75%;
+    padding: 25px;
+    color: #1e2022;
+    font-family: 'Titillium Web';
+}
+
+.contactscontent h5 {
+    font-size: 30px;
+    padding-bottom: 25px;
+    padding-top: 30px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.contactscontent a {
+    color: midnightblue;
+    font-size: 20px;
+}
+
+.contactscontent p {
+    font-size: 20px;
+}
+
+.selfc {
+    display: block;
+    border-radius: 17%;
+    position: relative;
+    width: 250px;
+    top: -250px;
+    left: 65%;
+}
+
+footer {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    background-color: #1e2022;
+    bottom: -200px;
+}
+
+footer p {
+    padding: 10px;
+    font-size: 15px;
+    color: #f0f5f9;
+    font-family: 'Titillium Web';
+    text-align: center;
 }
 
 
