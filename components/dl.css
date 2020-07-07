@@ -1,0 +1,46 @@
+@media (min-width:1025px) {
+    .navbar {
+        background-color: #1e2022;
+        position: fixed;
+    }
+
+    .navbar a {
+        color: #f0f5f9;
+        font-family: 'Titillium Web';
+    }
+
+    .name {
+        font-family: 'PT Sans';
+        font-weight: 1000;
+        font-size: 15px;
+        color: #f0f5f9;
+    }
+
+    .sname {
+        font-family: 'Titillium Web';
+        font-size: 15px;
+        font-weight: 1000;
+        color: #f0f5f9;
+        position: absolute;
+        left: 15px;
+        top: 30px;
+    }
+
+    .banner {
+        position: relative;
+        background-color: #52616b;
+        height: 300px;
+        width: 100%;
+    }
+
+    .banner h5 {
+        position: relative;
+        font-family: 'PT Sans';
+        font-weight: 1000;
+        font-size: 50px;
+        color: #f0f5f9;
+        top: 140px;
+        text-align: center;
+    }
+
+}
