@@ -1,4 +1,10 @@
 @media (min-width:1025px) {
+    .body {
+        padding-left: 8%;
+        padding-right: 8%;
+        background-color: #f0f5f9;
+    }
+
     .navbar {
         background-color: #1e2022;
         position: fixed;
@@ -31,6 +37,7 @@
         background-color: #52616b;
         height: 300px;
         width: 100%;
+        padding-bottom: 30px;
     }
 
     .banner h5 {
@@ -41,6 +48,12 @@
         color: #f0f5f9;
         top: 140px;
         text-align: center;
+    }
+
+    .mlimg{
+        height: 200px;
+        width: 300px;
+
     }
 
 }
