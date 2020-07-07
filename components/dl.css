@@ -1,4 +1,10 @@
 @media (min-width:1025px) {
+    .body {
+        padding-left: 8%;
+        padding-right: 8%;
+        background-color: #f0f5f9;
+    }
+
     .navbar {
         background-color: #1e2022;
         position: fixed;
@@ -41,6 +47,21 @@
         color: #f0f5f9;
         top: 140px;
         text-align: center;
+    }
+
+    .contents {
+        padding-top: 20px;
+        font-family: 'Titillium Web';
+    }
+
+    .contents h5 {
+        font-weight: 800;
+    }
+
+    .mlimg {
+        height: 200px;
+        width: 300px;
+
     }
 
 }
