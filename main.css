@@ -67,11 +67,12 @@
         border-color: #32e0c4;
     }
 
-    .btn-home a {
+    .btn-toolbar a {
         color: #1e2022;
+        padding-top: 10px;
     }
 
-    .btn-home a:hover {
+    .btn-toolbar a:hover {
         color: #1e2022;
         text-decoration: none;
     }
