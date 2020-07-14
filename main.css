@@ -1,7 +1,10 @@
 
-@media(min-width:1025px) {
+@media(min-width:768px) {
     .home {
     background-color: #1e2022;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 3px;
     top: 0px;
     left: 0px;
     width: 100%;
@@ -44,6 +47,8 @@
         position: relative;
         top: 200px;
         text-align: center;
+        margin-left: auto;
+        margin-right: auto;
         font-family:  'PT Sans', sans-serif;
     }
 
@@ -53,9 +58,7 @@
         color: #f0f5f9;
     }
 
-    .btn-toolbar div {
-        left: 27%;
-    }
+
 
     .btn-home {
         background-color: #32e0c4;
@@ -71,12 +74,12 @@
         border-color: #32e0c4;
     }
 
-    .btn-toolbar a {
+    .btn-links a {
         color: #1e2022;
         padding-top: 10px;
     }
 
-    .btn-toolbar a:hover {
+    .btn-links a:hover {
         color: #1e2022;
         text-decoration: none;
     }
@@ -303,9 +306,14 @@
 
 
 
-@media(max-width:800px) {
+
+
+@media(max-width:1025px) {
     .home {
     background-color: #1e2022;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 3px;
     top: 0px;
     left: 0px;
     width: 100%;
@@ -353,10 +361,6 @@
         color: #f0f5f9;
     }
 
-    .btn-toolbar div {
-        left: 10%;
-    }
-
     .btn-home {
         background-color: #32e0c4;
         border-radius: 3px;
@@ -371,16 +375,12 @@
         border-color: #32e0c4;
     }
 
-    .linkbot {
-        margin-left: 55px;
-    }
-
-    .btn-toolbar a {
+    .btn-links a {
         color: #1e2022;
-        padding-top: 10px;
+        padding-top: 7px;
     }
 
-    .btn-toolbar a:hover {
+    .btn-links a:hover {
         color: #1e2022;
         text-decoration: none;
     }
@@ -389,10 +389,6 @@
         background-color: #eeeeee;
         border-color:#eeeeee;
     }
-
-
-
-
 
 
     .portfolio {
@@ -597,5 +593,67 @@
     text-align: center;
     }
 
+
+}
+
+
+@media (min-width: 568px) and (max-width: 1024px){
+    .linkbot {
+        margin-left: 0px;
+    }
+
+    .homecontents h3 {
+        font-size: 50px;
+        font-weight: 900;
+        color: #f0f5f9;
+    }
+}
+
+@media (min-width:768px) and (max-width:1025px) {
+
+    .navb {
+        display: block;
+    }
+
+    .name {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-top: 25px;
+    color: #f0f5f9;
+    position: absolute;
+    }
+
+    .nav {
+        position: fixed;
+        font-size: 20px;
+        top: 5px;
+        right: 0px;
+    }
+
+    .homecontents {
+        top: 230px;
+    }
+
+    .nav li{
+        position: relative;
+        font-size: 20px;
+        top: 17px;
+        right: 25px;
+    }
+
+    .navb2 {
+        display: none;
+    }
+
+    li a {
+    color: #f0f5f9;
+    font-family: 'PT Sans', sans-serif;
+    }
+
+    li a:hover {
+    color: steelblue;
+    }
 
 }
