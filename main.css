@@ -234,6 +234,9 @@
     font-weight: 700;
     }
 
+    .contacts1 {
+        display: none;
+    }
 
     .contacts {
     position: relative;
@@ -308,7 +311,7 @@
 
 
 
-@media(max-width:1025px) {
+@media(max-width:768px) {
     .home {
     background-color: #1e2022;
     border-top-left-radius: 10px;
@@ -518,6 +521,9 @@
         font-size: 16px;
     }
 
+    .contacts1 {
+        display: none;
+    }
 
     .contacts {
     position: relative;
@@ -654,6 +660,64 @@
 
     li a:hover {
     color: steelblue;
+    }
+
+    .selfc {
+        display: block;
+        border-radius: 17%;
+        position: relative;
+        margin-right: auto;
+        margin-left: auto;
+        left: 30%;
+    }
+
+
+    .contacts {
+        position: relative;
+        display: inline;
+        top: 0px;
+        background-color: #c9d6df;
+        font-family: 'Titillium Web';
+
+    }
+
+    .contactscontent {
+        background-color: #c9d6df;
+        position: relative;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        top: 0px;
+        height: 350px;
+        width: 100%;
+        padding: 20px;
+        color: #1e2022;
+        font-family: 'Titillium Web';
+    }
+
+    .contacts1 {
+        position: relative;
+        top: -100px;
+        background-color: #c9d6df;
+        font-family: 'Titillium Web';
+        height: 0px;
+    }
+    
+    .contacts1 h5 {
+    font-size: 30px;
+    padding-bottom: 25px;
+    padding-top: 30px;
+    font-weight: 700;
+    text-decoration: underline;
+    }
+
+    .contacts1 a {
+    color: midnightblue;
+    font-size: 20px;
+    }
+
+    .contacts1 p {
+    font-size: 20px;
     }
 
 }
